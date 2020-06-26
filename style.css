@@ -491,4 +491,95 @@ footer
 .button_portfolio {
     left: 21%;
 }
+#netflix_content
+{
+	width: 98%;
+}
+.social-icons 
+{	
+	width: 25%;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	/*border-top: 1px solid #aaa;*/
+}
+.services {
+    padding: 50px 10px;
+}
+}
+
+
+@media only screen and (max-width: 375px)
+{
+	.content {
+	    width: 300px;
+	}
+	.about-me img
+	{	
+		
+		margin-left: 60px;
+	}
+
+	footer
+	{	
+		font-size: 11px;
+	}
+	.footer_heading
+	{
+		font-size: 18px;
+	}
+	
+	.social-icons i
+	{	
+		font-size: 18px;
+			
+	}
+}
+@media only screen and (max-width: 320px)
+{
+	footer
+	{	
+		font-size: 9px;
+	}
+	.footer_heading
+	{
+		font-size: 15px;
+	}
+	.social-icons 
+	{	
+	width: 30%;
+	}
+	
+	.social-icons i
+	{	
+		font-size: 18px;
+			
+	}
+	.my-services a
+{
+	padding: 10px 30px;
+	
+	font-size: 20px;
+	margin-bottom: 50px;
+	
+}
+.service h3
+{
+	
+	font-size: 25px;
+}
+.service p
+{
+	
+	font-size: 12px;
+
+}
+.services {
+    padding: 50px 6px;
+}
+	.about-me img
+	{	
+		
+		margin-left: 40px;
+	}
 }
