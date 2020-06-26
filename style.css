@@ -171,7 +171,7 @@
 }
 .section__subtitle--about
 {
-	background: #007bff;
+	background: #ee6e73;
 	font-size: 32px;
 	color: white;
 	width: 950px;
@@ -505,6 +505,15 @@ footer
 }
 .services {
     padding: 50px 10px;
+}
+	.my-services h2
+{	
+	font-size: 45px;
+	
+}
+.services h3
+{
+	font-size: 30px;
 }
 }
 
